@@ -18,8 +18,6 @@ public class Door
 		this.material = material;
 		if(mesh == null)
 		{
-			
-			
 			Vertex[] vertices = new Vertex[]{new Vertex(new Vector3f(START,START,START), new Vector2f(0.5f,1)),
 											 new Vertex(new Vector3f(START,HEIGHT,START), new Vector2f(0.5f,0.75f)),
 											 new Vertex(new Vector3f(LENGTH,HEIGHT,START), new Vector2f(0.75f,0.75f)),
