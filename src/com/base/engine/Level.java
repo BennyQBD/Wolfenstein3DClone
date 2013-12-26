@@ -19,10 +19,11 @@ public class Level
 	private Material material;
 	private Transform transform;
 	private Player player;
-	
-	//WARNING: TEMP VARIABLE!
-	//private Door door;
 	private ArrayList<Door> doors;
+
+	//WARNING: TEMP VARIABLE!
+	private Monster monster;
+
 	
 	public Level(String levelName, String textureName, Player player)
 	{
@@ -37,7 +38,8 @@ public class Level
 		generateLevel();
 		Transform tempTransform = new Transform();
 		tempTransform.setTranslation(new Vector3f(8,0,8));
-		
+
+		monster = new Monster(tempTransform);
 		//door = new Door(tempTransform, material);
 
 	}
@@ -64,6 +66,7 @@ public class Level
 			door.update();
 
 		player.update();
+		monster.update();
 	}
 	
 	public void render()
@@ -75,6 +78,7 @@ public class Level
 			door.render();
 
 		player.render();
+		monster.render();
 	}
 	
 	public Vector3f checkCollision(Vector3f oldPos, Vector3f newPos, float objectWidth, float objectLength)
