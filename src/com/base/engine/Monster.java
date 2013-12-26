@@ -7,8 +7,8 @@ public class Monster
 	public static final float SIZEX = (float)((double)SIZEY / (1.9310344827586206896551724137931 * 2.0));
 	public static final float START = 0;
 
-	public static final float OFFSET_X = 0.0f; //0.01f
-	public static final float OFFSET_Y = 0.0f; //0.05f
+	public static final float OFFSET_X = 0.0f; //0.05f
+	public static final float OFFSET_Y = 0.0f; //0.01f
 	public static final float OFFSET_FROM_GROUND = 0.0f; //-0.075f
 
 	public static final float TEX_MIN_X = -OFFSET_X;
