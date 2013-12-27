@@ -4,7 +4,7 @@ public class Player
 {
 	private static final float MOUSE_SENSITIVITY = 0.33f;
 	private static final float MOVE_SPEED = 5f;
-	private static final float PLAYER_SIZE = 0.2f;
+	public static final float PLAYER_SIZE = 0.2f;
 	private static final Vector3f zeroVector = new Vector3f(0,0,0);
 	
 	private Camera camera;
