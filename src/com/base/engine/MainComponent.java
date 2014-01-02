@@ -87,11 +87,11 @@ public class MainComponent
 			}
 			else
 			{
-				try 
+				try
 				{
 					Thread.sleep(1);
-				} 
-				catch (InterruptedException e) 
+				}
+				catch (InterruptedException e)
 				{
 					e.printStackTrace();
 				}
