@@ -75,7 +75,7 @@ public class MainComponent
 				
 				if(frameCounter >= Time.SECOND)
 				{
-					System.out.println(frames);
+					//System.out.println(frames);
 					frames = 0;
 					frameCounter = 0;
 				}
