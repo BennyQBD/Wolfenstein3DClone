@@ -5,9 +5,9 @@ public class Medkit
 	public static final float PICKUP_DISTANCE = 0.75f;
 	public static final int HEAL_AMOUNT = 25;
 
-	public static final float SCALE = 0.4f;
+	public static final float SCALE = 0.25f;
 	public static final float SIZEY = SCALE;
-	public static final float SIZEX = (float)((double)SIZEY / (0.67857142857142857142857142857143 * 4.0));
+	public static final float SIZEX = (float)((double)SIZEY / (0.67857142857142857142857142857143 * 2.5));
 	public static final float START = 0;
 
 	public static final float OFFSET_X = 0.0f; //0.05f

@@ -60,7 +60,7 @@ public class Player
 			gunMaterial = new Material(new Texture("PISGB0.png"));
 		}
 
-		camera = new Camera(position, new Vector3f(0,0,1), new Vector3f(0,1,0));
+		camera = new Camera(position, new Vector3f(0,0,-1), new Vector3f(0,1,0));
 		rand = new Random();
 		health = MAX_HEALTH;
 		gunTransform = new Transform();

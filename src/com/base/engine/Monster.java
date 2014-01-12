@@ -222,12 +222,12 @@ public class Monster
 				}
 
 				canAttack = false;
-				state = STATE_CHASE;
 			}
 		}
 		else
 		{
 			material.setTexture(animations.get(5));
+			state = STATE_CHASE;
 			canAttack = true;
 		}
 
